@@ -9,7 +9,7 @@ class Example {
     //this is the main method or "main()"
 public static void main(String[] args) {
     //this prints your name on a new line
-    System.out.println("Bahati308");
+    System.out.println("bahati308");
 }
     
 }
