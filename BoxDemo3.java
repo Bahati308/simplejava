@@ -6,7 +6,7 @@ class Box {
 
     // display volume of the box
     void volume (){
-        System.out.println("Volume is ");
+        System.out.print("Volume is ");
         System.out.println(width*depth*height);
     }
 }
