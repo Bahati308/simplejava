@@ -39,6 +39,9 @@ public class Grading {
             else if(average >= 65){
                 System.out.println("You did great");
             }
+            else if (average >= 50){
+                System.out.println("This is an averege score");
+            }
             else {
                 System.out.println("Do not settle for less");
             }
