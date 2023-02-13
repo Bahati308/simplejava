@@ -17,14 +17,22 @@ class Box {
 
     // constructor used when no dimensions specified 
 
-    Box( ){
+    Box(){
         width = -1; // use -1 to indicate an 
         height = -1;// uninitialized box
         depth = -1;
     }
+
+    // contructor used when a cube is created 
+    Box(double len){
+        width=depth=height=len;
+    }
+
+    // compute and return volume
+    double volume(){
+        return width*depth*height;
+    }
 }
-
-
 
 public class OverloadCons {
     public static void main(String[] args) {
