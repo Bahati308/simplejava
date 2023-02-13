@@ -18,8 +18,8 @@ class Box {
     // constructor used when no dimensions specified 
 
     Box( ){
-        width = -1;
-        height = -1;
+        width = -1; // use -1 to indicate an 
+        height = -1;// uninitialized box
         depth = -1;
     }
 }
