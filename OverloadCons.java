@@ -36,6 +36,23 @@ class Box {
 
 public class OverloadCons {
     public static void main(String[] args) {
-        
+        // creating boxes using different constructors
+
+        Box mybox1 =new Box(10, 20,15);
+        Box mybox2 = new Box();
+        Box mycube = new Box(7);
+
+        double vol;
+        // get volume of the first box
+            vol = mybox1.volume();
+            System.out.println("Volume is :" + vol);
+
+        // 2nd box
+        vol = mybox2.volume();
+        System.out.println("Volume is :"+vol);
+
+        //3rd box
+        vol = mycube.volume();
+        System.out.println("Volume of mycube is :"+vol);
     }
 }
